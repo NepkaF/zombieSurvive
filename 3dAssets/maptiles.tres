@@ -1,0 +1,16 @@
+[gd_resource type="MeshLibrary" load_steps=3 format=3 uid="uid://sbomuanqak1o"]
+
+[ext_resource type="Material" uid="uid://caok1ja0eg4lt" path="res://3dAssets/grass.tres" id="1_wrugy"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_tbucr"]
+material = ExtResource("1_wrugy")
+size = Vector2(3, 3)
+center_offset = Vector3(0, -1.5, 0)
+
+[resource]
+item/0/name = ""
+item/0/mesh = SubResource("PlaneMesh_tbucr")
+item/0/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/0/shapes = []
+item/0/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/0/navigation_layers = 1

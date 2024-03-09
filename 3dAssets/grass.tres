@@ -1,0 +1,6 @@
+[gd_resource type="ORMMaterial3D" load_steps=2 format=3 uid="uid://caok1ja0eg4lt"]
+
+[ext_resource type="Texture2D" uid="uid://dab4o1mueavbc" path="res://3dAssets/grass1.png" id="1_6gfb0"]
+
+[resource]
+albedo_texture = ExtResource("1_6gfb0")
